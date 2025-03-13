@@ -12,7 +12,7 @@ const IBMPlex = IBM_Plex_Sans({
 
 export const metadata: Metadata = {
   title: "ImgGo",
-  description: "AI-powered image generator v1",
+  description: "AI-powered image generator",
 };
 
 export default function RootLayout({
