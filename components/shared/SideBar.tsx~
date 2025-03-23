@@ -18,9 +18,7 @@ const SideBar = () => {
                                 const isActive = link.route === pathname
                                 return(
                                     <li key={link.route}
-                                        className={`sidebar-nav_elements group ${isActive ? 'bg-purple-gradient text-white' : 'text-gray-700'}`}>
-                                        {link.label}
-                                    </li>
+                                        className={`sidebar-nav_elements group ${isActive ? 'bg-purple-gradient text-white' : 'text-gray-700'}`}></li>
                                 )
                             })}
                         </ul>
