@@ -5,7 +5,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
         <main className="root">
            <SideBar/>
-            {/*{MobileNav}*/}
+            <MobileNav/>
 
             <div className="root-container">
                 <div className="wrapper">
