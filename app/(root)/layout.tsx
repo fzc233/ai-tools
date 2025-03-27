@@ -1,5 +1,6 @@
 //after login page
 import SideBar from "@/components/shared/SideBar";
+import MobileNav from "@/components/shared/MobileNav";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
